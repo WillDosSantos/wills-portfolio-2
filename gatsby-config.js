@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Wills Portfolio 2.0`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.willdossantos.com`
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
