@@ -6,7 +6,10 @@ module.exports = {
     title: `Wills Portfolio 2.0`,
     siteUrl: `https://www.willdossantos.com`
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", {
+  plugins: [
+    "gatsby-plugin-sass", 
+    "gatsby-plugin-image", 
+    "gatsby-plugin-sitemap", {
     resolve: 'gatsby-plugin-manifest',
     options: {
       "icon": "src/images/icon.png"
@@ -25,5 +28,13 @@ module.exports = {
       "path": "./src/pages/"
     },
     __key: "pages"
-  }]
+  },
+  {
+    resolve: "gatsby-source-filesystem",
+    options: {
+      name: `blog`,
+      path: `${__dirname}/blog`,
+    }
+  },
+]
 };

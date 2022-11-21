@@ -5,7 +5,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
     <link
       key="domaine-display-extrabold"
       rel="preload"
-      href="/static/fonts/domaine-display-extrabold.woff2"
+      href="/fonts/domaine-display-extrabold.woff2"
       as="font"
       type="font/woff2"
       crossOrigin="anonymous"
@@ -13,7 +13,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
     <link
       key="domaine-display-medium"
       rel="preload"
-      href="/static/fonts/domaine-display-medium.woff2"
+      href="/fonts/domaine-display-medium.woff2"
       as="font"
       type="font/woff2"
       crossOrigin="anonymous"
